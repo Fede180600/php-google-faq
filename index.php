@@ -35,10 +35,10 @@ $faqs = [
 
             "<ol class='margin'>
                 <li class='margin'>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:</li>
-                <ul class='margin'>
-                    <li class='margin'>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
-                    <li class='margin'>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
-                </ul>
+                <ol class='margin' type='a' style='padding: 0 30px;'>
+                    <li class='margin' style='padding: 0 10px;'>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
+                    <li class='margin' 'padding: 0 10px;'>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+                </ol>
                 <li class='margin'>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
             </ol>",
 
@@ -84,10 +84,39 @@ $faqs = [
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- HEADER -->
-        <header></header>
+    <header>
+        <!-- header top -->
+        <div class="header-top">
+            <div class="header-top-left">
+                <span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" style="height: 24px; vertical-align: text-bottom;" alt=""></span>
+                <span style="line-height: 24px; color: #5f6368; opacity: 1; font-size: 22px; margin-left: 4px;">Privacy e termini</span>
+            </div>
+            <div class="header-top-right">
+                <span style="margin-right: 20px;"><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i></span>
+                <span><img src="img/user-img.jpg" alt="" style="height: 32px; border-radius: 50%; vertical-align: middle;"></span>
+            </div>
+        </div>
+        <!-- /header top -->
+
+        <!-- header bottom -->
+            <div class="header-bottom">
+                <nav class="header-navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">Introduzione</li>
+                        <li class="navbar-item">Norme sulla privacy</li>
+                        <li class="navbar-item">Termini di servizio</li>
+                        <li class="navbar-item">Tecnologie</li>
+                        <li class="navbar-item active">Domande frequenti</li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- /header bottom -->
+    </header>
     <!-- /HEADER -->
 
     <main>
@@ -105,7 +134,7 @@ $faqs = [
     </main>
 
     <!-- FOOTER -->
-        <footer></footer>
+    <footer></footer>
     <!-- /FOOTER -->
 
 </body>
