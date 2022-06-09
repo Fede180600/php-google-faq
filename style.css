@@ -1,3 +1,4 @@
+/* COMMON */
 * {
     margin: 0;
     padding: 0;
@@ -7,26 +8,6 @@
 body {
     font-family: 'Roboto', sans-serif;
 } 
-
-header {
-    height: 100px;
-    width: 100%;
-    background-color: beige;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-main {
-    margin-top: 100px;
-    padding-top: 80px;
-}
-
-.faqs-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
 
 .margin {
     margin: 30px 0;
@@ -44,14 +25,6 @@ ol.margin > li {
     padding: 0 15px;
 }
 
-ul.margin{
-    padding: 0 35px;
-}
-
-ul.margin > li {
-    padding: 0 10px;
-}
-
 h2, h3 {
     font-weight: 500;
     color: #3c4043;
@@ -61,3 +34,87 @@ a {
     color: #3367D6;
     text-decoration: none;
 }
+
+
+/* HEADER */
+header {
+    height: 95px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-top {
+    padding: 8px;
+    display: flex;
+}
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0 15px;
+    flex-grow: 1;
+}
+
+.header-top-right {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 0 0;
+}
+
+.header-top-right i {
+    color: #5f6368;
+}
+
+.header-bottom {
+    border-bottom: 1px solid rgba(151, 151, 151, .5)
+}
+
+.header-navbar {
+    margin-left: 22px;
+    width: 100%;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 15px;
+    color: #5f6368;
+}
+
+.navbar-item {
+    margin-right: 30px;
+    line-height: 28px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-item.active {
+    color: #3367D6;
+    border-color: #3367D6;
+}
+/* /HEADER */
+
+/* MAIN */
+main {
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.faqs-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* MAIN */
+
+/* FOOTER */
+footer {
+    height: 40px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+}
+/* MAIN */
