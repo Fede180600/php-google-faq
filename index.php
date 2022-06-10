@@ -1,5 +1,5 @@
 <?php 
-include "database.php";
+include __DIR__ . "/database.php";
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ include "database.php";
 </head>
 <body>
     <!-- HEADER -->
-    <?php include "partials/header.php" ?>
+    <?php include __DIR__ .  "/partials/header.php" ?>
     <!-- /HEADER -->
 
     <main>
